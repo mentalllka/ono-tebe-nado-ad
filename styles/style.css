@@ -41,7 +41,7 @@
   line-height: 24.3px;
 }
 
-.address a {
+.address__link {
   text-underline-offset: 4px;
 }
 
