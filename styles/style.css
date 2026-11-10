@@ -49,6 +49,10 @@
   justify-self: end;
 }
 
+.address__text {
+  max-width: 230px;
+}
+
 .cover {
   position: relative;
   min-height: 757px;
@@ -86,17 +90,11 @@
 .aligned-text_center {
   margin-top: 20px;
   text-align: center;
-  line-height: 1;
 }
 
 .aligned-text_right {
   margin-top: 20px;
   text-align: right;
-  line-height: 1;
-}
-
-.letter-spacing-extended {
-  letter-spacing: 60px;
 }
 
 .no-letter-spacing {
@@ -109,7 +107,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 78px;
+  gap: 108px;
   margin-top: 135px;
 }
 
@@ -149,7 +147,7 @@
 
 .lots__card-list-item {
   width: 334px;
-  min-height: 563px;
+  min-height: 596px;
 }
 
 .card-link {
@@ -207,7 +205,7 @@
   display: grid;
   grid-template-columns: 334px 1fr;
   gap: 25px;
-  margin: 146px 24px 0;
+  margin: 120px 24px 0;
 }
 
 .about__logo {
